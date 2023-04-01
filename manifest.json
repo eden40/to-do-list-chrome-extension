@@ -1,0 +1,14 @@
+{
+    "name" : "experiment", 
+    "version" : "2.0",
+    "description" : "To-Do List", 
+    "action": {
+        "default_title": "To-Do List",
+        "default_popup" : "popout.html"
+    },
+    "manifest_version": 3,
+    "permissions" : ["activeTab", "notifications", "storage", "alarms"],
+    "background": {"service worker":"background.js"}
+    
+    }
+ 
